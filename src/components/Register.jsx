@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { ethers } from "ethers";
 
-export default function Register(props) {
+export default function CONNECT(props) {
   const [showMnemonic, setMnemonic] = useState(false);
   const [mnemonicValue, setMnemonicValue] = useState("");
   const [privateKeyValue, setPrivateKeyValue] = useState("");

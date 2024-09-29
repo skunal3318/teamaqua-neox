@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Homepage.css"; // Make sure this CSS file contains the updated styles
 
 const Homepage = () => {
-  const [title, setTitle] = useState("WELCOME TO D.I.V.S");
+  const [title, setTitle] = useState("WELCOME TO A.Q.U.A");
 
   useEffect(() => {
     const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -25,14 +25,14 @@ const Homepage = () => {
             .split("")
             .map((char, index) => {
               if (index < iteration) {
-                return "WELCOME TO D.I.V.S"[index];
+                return "WELCOME TO A.Q.U.A"[index];
               }
               return letters[Math.floor(Math.random() * 26)];
             })
             .join("")
         );
 
-        if (iteration >= "WELCOME TO D.I.V.S".length) {
+        if (iteration >= "WELCOME TO A.Q.U.A".length) {
           clearInterval(interval);
         }
 

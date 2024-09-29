@@ -95,7 +95,7 @@ export default function Navbar2(props) {
           style={{ fontWeight: "bold", fontSize: "1.5rem" }}
           href="/"
         >
-          DIVS
+          AQUA
         </Link>
       </NavbarBrand>
       {props.address && (
